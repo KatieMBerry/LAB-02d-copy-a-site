@@ -1,0 +1,75 @@
+body, html {
+    background: white;
+    height: 100%;
+}
+
+section, main, div, header {
+    border-style: solid 1px black;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 4fr .5fr 5fr 1fr 1.5fr 2fr 5fr;
+    margin: 0 auto;
+    width: 100%;
+    border-style: solid 1px black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#Navigation {
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    border: solid 1px black;
+}
+
+#logo {
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    border: solid 1px black;
+}
+
+#Pages {
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    border: solid 1px black;
+}
+
+#boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 1px black;
+    justify-content: space-around;
+}
+.main-image {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    height: 100%;
+    border-style: solid 1px black; */
+}
